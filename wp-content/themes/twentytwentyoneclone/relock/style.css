@@ -1,0 +1,79 @@
+html, body, .container{
+	height: 100%;
+min-width: 100%;
+	min-height: 100%;	
+}
+.grey-box{
+	background-color: #e5e5e5;
+	border-radius: 3px;
+
+}
+.topper{
+	min-width: 100%;
+	min-height: 100px !important;
+	height: 100px !important;
+}
+ .botter{
+	min-width: 100%;
+	height: 17%;
+}
+.mainn{
+	min-width: 100%;
+	min-height: 70%;
+	}
+.nav-m{
+	background-color: #ffffff;
+	width:70%;
+	min-width:70%;
+	height: 9%;
+	min-height:9%;
+	position:relative;
+	top: 5%;
+	left: 6.5%;
+	border-radius: 10px;
+	font-size: 1.2vw;
+	font-family: "Inter";
+}
+.dynamical{
+	position:relative;
+	top: 10%;
+	left: 5%;
+	min-width: 100%;
+	min-height: 350px;
+	}
+.butt-control{
+
+}
+
+.empty-top{
+	height: 3%;
+	min-height: 3%;
+}
+#contactinfo_content, div.continue-to-quantity{
+display: inline;
+ 
+}
+#quantity_content, div.continue-to-price, #price-content, div.continue-to-done, #done_success_content, div.start-again, #done_warn_content, div.start-again{
+display:none;	
+height: 17%;
+min-height: 17%;
+}
+
+#butt-row{
+	min-height: 80px;
+	height: 80px;
+}
+#price-num{
+	font-weight: bold;
+	font-size: 10vw;
+}
+#contactinfo{
+	color:red;
+}
+input{
+	background-color: #ffffff;
+}
+#title{
+	margin-left: 33%;
+	margin-right: 33%;
+}
